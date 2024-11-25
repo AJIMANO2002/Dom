@@ -88,7 +88,6 @@
 
 
 
-
 // let myform = document.getElementById("myform");
 
 // // console.log(myform);
@@ -111,8 +110,8 @@
 
 // })
 
-myForm.addEventListenter("submit",(e) => {
-    e.preventDefault();
+// myForm.addEventListenter("submit",(e) => {
+//     e.preventDefault();
 
-    let formdata = new FormData(myForm)
-})
+//     let formdata = new FormData(myForm)
+// })
