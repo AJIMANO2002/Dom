@@ -46,10 +46,73 @@
 //  }
 
 
-let tag = document.getElementsByTagName("li");
+// let tag = document.getElementsByTagName("li");
 
 
-for(let i in tag){
-    console.log(tag[i]);
-    
-}
+// for(let i in tag){
+//     console.log(tag[i]);
+
+// }
+
+
+
+
+
+// Day 2
+// let count = 0;
+
+// let names = ["aji", "mano", "kumar", "sasi"]
+
+// let generate = () => {
+//     console.log(`Button is clicked ${++count} times`);
+
+//     let main = document.getElementById("main");
+//     main.innerText = ""
+//     let ul = document.createElement("ul");
+
+//     let user = names.forEach((e) => {
+//         let li = document.createElement("li");
+//         li.innerText = e;
+//         ul.append(li);
+//     })
+
+//     main.append(ul)
+// }
+
+// let clearcatch = () => {
+//     let main = document.getElementById("main");
+//     main.innerText = "";
+// }
+
+
+
+
+
+
+// let myform = document.getElementById("myform");
+
+// // console.log(myform);
+
+// myform.addEventListener("submit", (e) => {
+//     e.preventDefault();
+//     console.log("form submited");
+
+//     let fname = document.getElementById("fname").value;
+//     let lname = document.getElementById("lname").value;
+
+//     console.log({ fname, lname });
+
+//     let display = document.getElementById("display");
+
+//   display.innerText = "";
+//     display.innerHTML =`<h1>Submited Data</h1>
+//     <div>First Name :<strong> ${fname}</strong></div>
+//     <div>First Name :<strong> ${lname}</strong></div>`
+
+// })
+
+myForm.addEventListenter("submit",(e) => {
+    e.preventDefault();
+
+    let formdata = new FormData(myForm)
+})
